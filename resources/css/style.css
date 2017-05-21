@@ -1,0 +1,156 @@
+html body {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+header {
+  background-color: black;
+  text-align: left;
+  display: inline-block;
+}
+
+#logo img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+#logo h3 {
+  color: white;
+
+}
+
+#logo {
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+#arrival {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-size: cover;
+  height: 25rem;
+}
+
+#arrival .flexcontainer {
+  display: block;
+  padding-top: 9rem;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#arrival .flexcontainer .box {
+  display: block;
+  background-color: black;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 2rem 3rem;
+  text-align: left;
+  width: 20rem;
+}
+
+#arrival .flexcontainer .box h3 {
+  font-size: 1rem;
+  padding-bottom: .25rem;
+}
+
+#arrival .flexcontainer .box h1 {
+  font-size: 2rem;
+}
+
+#main {
+  background-color: firebrick;
+  justify-content: space-around;
+}
+
+#main .flexcontainer{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+#main .flexcontainer ul li {
+  display: inline-flex;
+  color: white;
+
+}
+
+.flexcontainer .featured {
+  display: inline-flex;
+  padding: 3rem;
+  align-items: stretch;
+}
+
+.flexcontainer .featured #gadets img {
+  height: 9rem;
+  padding: 2rem 2rem;
+  border: 4px solid black;
+}
+
+.flexcontainer .featured #gadets h3 {
+  background-color: black;
+  color: white;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.flexcontainer .featured #apparel img {
+  height: 9rem;
+  padding: 2rem 2rem;
+  border: 4px solid black;
+}
+
+.flexcontainer .featured #apparel h3 {
+  background-color: black;
+  color: white;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.flexcontainer .featured #eyewear img {
+  height: 9rem;
+  padding: 2rem 2rem;
+  border: 4px solid black;
+}
+
+.flexcontainer .featured #eyewear h3 {
+  background-color: black;
+  color: white;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.flexcontainer #contact {
+  display: inline-block;
+  width: 35%;
+  padding-bottom: 4rem;
+}
+
+.flexcontainer #contact h3 {
+  background-color: black;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  text-align: left;
+}
+
+.flexcontainer #contact h2 {
+  text-align: left;
+}
+
+footer {
+  height: 10rem;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+footer h2 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 960px;
+}
